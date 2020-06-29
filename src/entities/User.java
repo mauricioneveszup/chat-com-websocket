@@ -2,11 +2,15 @@ package entities;
 
 public class User {
     private String name;
-    private String email;
 
 
-    public User(String name, String email) {
+    public User(String name) {
         this.name = name;
-        this.email = email;
+
+    }
+
+    public String getName() {
+        return name;
     }
 }
+
